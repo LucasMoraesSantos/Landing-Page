@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OtakuZone</title>
+</head>
+<body>
+    <header id="menu"><!------- Menu ------->
+        <img class="logo-img" src="img/logo.png">
+        <nav class="navegation">
+        <div class="nav-menu">
+            <a class="nav-item" href="#home">Início</a>
+            <a class="nav-item" href="#produtos">Produtos</a>
+            <a class="nav-item" href="#sobre">Sobre</a>
+            <a class="nav-item" href="#cont"><span class="bold">CONTATO</span></a>
+        </div>
+            <div class="nav-op">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main id="home"><!--------- Container principal ------->    
+        <section class="home-cont">
+            <div class="home-text">
+                <h1 class="text-h1"><span class="o-red">Otaku</span>Zone</h1>
+                <p class="desc-top">Já pensou em comprar camisas, 
+                    entre outros produtos do seu anime fávorito?
+                    <br><span class="desc-txt">E o melhor, de forma rápida e segura!</span>
+                    <br>Na<span class="o-red"> Otaku</span>Zone você encontra diversos
+                    produtos sobre inúmeros animes.
+                </p>
+                <a href="#produtos"  class="btn">Ver mais</a>
+            </div>
+            <div class="home-img">
+                <img class="store" src="img/in-no-time-animate.svg" alt="lojas">
+            </div>
+        </section>
+    </main>
+    <section id="roll"><!------- Produtos ------->
+      <h2>Alguns de nossos produtos</h2>
+    </section>
+    <section id="produtos">
+        <div class="desc-produtos">
+          <div class="desc-produto">
+            <a href="#cont"><div id="produto-1" class="produto-img"></div></a>
+            <a class="link-produto" href="#cont"><h3>CAMISA</h3></a>
+            <p>
+              Muitas estampas a disposição
+              <br>Você também pode customizar sua camisa
+            </p>
+          </div>
+          <div class="desc-produto">
+            <a href="#cont"><div id="produto-2" class="produto-img"></div></a>
+            <a class="link-produto" href="#cont"><h3>ACTION FIGURE</h3></a>
+            <p>
+              Temos diversas opções de personagens
+            </p>
+          </div>
+          <div class="desc-produto">
+            <a href="#cont"><div id="produto-3" class="produto-img"></div></a>
+            <a class="link-produto" href="#cont"><h3>MANGÁ</h3></a>
+            <p>
+                Mais de 2000 títulos de Mangás para você colecionar
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section id="cont"><!------- Contato ------->
+      <h1 class="cont-txt">Se interessou e quer adquirir nossos produtos?</h1>
+      <div id="form-contato">
+        <p class="contato">CONTATO</p>
+        <form>
+        <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" />
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu melhor e-mail" />
+        </div>
+        <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" placeholder="Número de Whatsapp" />
+        </div>
+        <a href="#home"><input type="submit" class="btn-cont" value="ENTRAR EM CONTATO" /></a>
+        </form>
+      </div>
+    </section>
+    <section id="sobre"><!------- Sobre ------->
+      <div class="historia">
+          <h2>UM POUCO SOBRE A NOSSA HISTÓRIA</h2>
+          <p>Meu nome é Fulano e sou um grande fã de anime. 
+              <br> Desde criança, mergulhei em histórias emocionantes, 
+              <br> personagens cativantes e mundos fantásticos que me fizeram sonhar e me senti conectado de uma forma única.
+              <br> Eu sempre quis compartilhar minha paixão com outras pessoas, 
+              <br> então decidi começar um negócio online para vender produtos sobre anime.
+          </p>
+          <button class="contat"><span> <a href="#cont">CONTATO</a></span></button>
+      </div>
+    </section>
+    <footer><a href="#" class="rodape"><span class="o-white">Otaku</span>Zone </a> - Todos direitos reservador - 2023</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
